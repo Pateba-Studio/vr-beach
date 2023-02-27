@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bebd0c2f6b6be4eb524a9dbd6db7bd, type: 3}
+  m_Name: Sejarah Dan Heritage
+  m_EditorClassIdentifier: 
+  bookLinkDetails:
+  - fileTitle: Bersinergi dalam Keistimewaan - Peran Bank Indonesia dalam Pembangunan
+      Ekonomi Yogyakarta
+    fileUrl: https://drive.google.com/uc?export=download&id=1IkdEuEu9RtKa6XUpttg1YlWeCvURRT2d
+  - fileTitle: Dari Rimba Menjadi Kota - Bank Indonesia dalam Evolusi Malang Raya
+    fileUrl: https://drive.google.com/uc?export=download&id=193NZSDCFRPJpsqpoavOCvsBokpqT2dXQ
+  - fileTitle: Dinamika Perekonomian Hulu-Hilir Sungai - Bank Indonesia dalam Lintasan
+      Sejarah Kalimantan Selatan
+    fileUrl: https://drive.google.com/uc?export=download&id=1t3GzqhhqXjHmaC7xGIj-N13jlb0nXh93
+  - fileTitle: Geliat Kota Bandung - Dari Kota Tradisional Menuju Modern
+    fileUrl: https://drive.google.com/uc?export=download&id=1XJGOdq8nmXBrKvkvyMMuEXs84PVoGR9q
+  - fileTitle: Harmoni dalam Perbedaan - Bank Indonesia dalam Dinamika Ekonomi Solo
+      Raya
+    fileUrl: https://drive.google.com/uc?export=download&id=1xDMwuz0UTC7ROx9zHR5zv2JGvIWU0FDX
+  - fileTitle: Membangun Infrastruktur, Memperkuat Ketahanan Ekonomi - Dinamika Kota
+      Surabaya dan Jawa Timur Sebagai Penyangga Ekonomi Bangsa
+    fileUrl: https://drive.google.com/uc?export=download&id=10TDXy1VTVUiDaaIDND587xsHQHrRzH4d
+  - fileTitle: Membangun Kemakmuran di Pedalaman - Bank Indonesia dalam Perkembangan
+      Ekonomi Kediri
+    fileUrl: https://drive.google.com/uc?export=download&id=1q1jhjaATSt586b4w2ct0PoAC490BD9fb
+  - fileTitle: Memperkuat Simpul Ekonomi Kerakyatan Wilayah Pesisir - Bank Indonesia
+      dan Perkembangan Ekonomi Cirebon
+    fileUrl: https://drive.google.com/uc?export=download&id=1m0VkwUR2j4u37M8CF2CMnIlZOOv3vtl_
+  - fileTitle: Mempertahankan dan Memajukan Republik Indonesia - Semangat Juang Otoritas
+      dan Masyarakat Sumatera Utara
+    fileUrl: https://drive.google.com/uc?export=download&id=1klRKpL76QWaqwttnyCYL2fzPiPtXzpHX
+  - fileTitle: Mendukung Pertumbuhan Ekonomi di Daerah Modal - Bank Indonesia dalam
+      Dinamika Perekonomian Aceh
+    fileUrl: https://drive.google.com/uc?export=download&id=1dYYXAU5Sn-Eyfom58080GWu7CeH5HEiI
+  - fileTitle: Menegakkan Kedaulatan dan Ketahanan Ekonomi - Bank Indonesia dalam
+      Pusaran Sejarah Kalimantan Barat
+    fileUrl: https://drive.google.com/uc?export=download&id=1754mhq4NqcOhg0TosYxY-ybXe-kgYhY4
+  - fileTitle: Mengawal Semangat Kewirausahaan - Peran Saudagar dalam Memajukan Roda
+      Ekonomi Sumatera Barat
+    fileUrl: https://drive.google.com/uc?export=download&id=173WkH32F2yknPg9K8nh-UOy5itzw9t9-
+  - fileTitle: Oedjan Mas di Bumi Sriwijaya - Bank Indonesia dan Heritage di Sumatra
+      Selatan
+    fileUrl: https://drive.google.com/uc?export=download&id=1w2HNZewuSrppaC6u3-_uStRNBg4jNT2X
+  - fileTitle: Pusat Ekonomi Maritim Makassar dan Peranan Bank Indonesia di Sulawesi
+      Selatan
+    fileUrl: https://drive.google.com/uc?export=download&id=1lDAvIT-6wMwVEQRT57451YtF1R_rZ4cR
+  - fileTitle: Sejarah Bank Indonesia Periode I 1945-1959 (Bank Indonesia Pada Masa
+      Perjuangan Kemerdekaan Indonesia)
+    fileUrl: https://drive.google.com/uc?export=download&id=1eKppCqRy5i1LvEKMiOB1K_mkpzgly-mr
+  - fileTitle: Sejarah Bank Indonesia Periode II 1959-1966 (Bank Indonesia pada Masa
+      Ekonomi Terpimpin)
+    fileUrl: https://drive.google.com/uc?export=download&id=1KHJnhskpFqSNc8S56kpG59HrwwVU3iOD
+  - fileTitle: Sejarah Bank Indonesia Periode III 1966-1983 (Bank Indonesia pada
+      Masa Stabilisasi, Rehabilitasi, dan Pembangunan Ekonomi)
+    fileUrl: https://drive.google.com/uc?export=download&id=1ZErNUAJ1kyxnpsogIAj7NWNAidRpWZo9
+  - fileTitle: Sejarah Bank Indonesia Periode IV 1983-1997 (Bank Indonesia pada Masa
+      Pembangunan Ekonomi dengan Pola Deregulasi)
+    fileUrl: https://drive.google.com/uc?export=download&id=1XAElsMn8sSRSjijwgSzSk_wIY-CgPiKJ
+  - fileTitle: Sejarah Bank Indonesia Periode V 1997-1999 (Bank Indonesia pada Masa
+      Krisis Ekonomi, Moneter dan Perbankan)
+    fileUrl: https://drive.google.com/uc?export=download&id=1EBBm6Djs7r9CRymDaVE8gJfcO7SHNaOn
+  - fileTitle: Sejarah Bank Indonesia Periode VI 2000-2003 (Bank Indonesia pada Masa
+      Reformasi)
+    fileUrl: https://drive.google.com/uc?export=download&id=15eehjivs-L_Y5FfyC4fAvymNEuvgQjPY
+  - fileTitle: Sejarah Bank Indonesia Periode VII 2004-2011 (Indonesia Mengahadapi
+      Globalisasi Keuangan)
+    fileUrl: https://drive.google.com/uc?export=download&id=1Q3_hJABsDCPfL8UxD1ShfGpOC6PC-OHf
+  - fileTitle: Semarang Sebagai Simpul Ekonomi - Bank Indonesia dalam Dinamika Perekonomian
+      Jawa Tengah
+    fileUrl: https://drive.google.com/uc?export=download&id=1kjFDyTUfb5_9jNgxmjeZOyviXgBPD9Qj

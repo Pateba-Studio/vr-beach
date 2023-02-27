@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bebd0c2f6b6be4eb524a9dbd6db7bd, type: 3}
+  m_Name: Begawanship Pegawai Utama
+  m_EditorClassIdentifier: 
+  bookLinkDetails:
+  - fileTitle: Akuntan Untuk SDM, UMKM Dan Orang Kecil
+    fileUrl: https://drive.google.com/uc?export=download&id=1sOcCbAv3JPWWFVTZPxkSjsuDgB0k-kiP
+  - fileTitle: Dari KBI Ke KBI Meneladani Ketegasan
+    fileUrl: https://drive.google.com/uc?export=download&id=1SaSvsfs79bQqfbhjNI-ekGy5MI5GntOg
+  - fileTitle: Dari Statistik Membangun Sistem Dan Teknologi Informasi
+    fileUrl: https://drive.google.com/uc?export=download&id=1JgxAzDl7GxQSnbJrf_JvtMPPqmfm7lxN
+  - fileTitle: Dengan Akunting Mengelola Devisa
+    fileUrl: https://drive.google.com/uc?export=download&id=1GOSb4cIPa9G6CrrOrLoNjRu16y4sg3LO
+  - fileTitle: Harmonisasi Akuntansi Dengan Teknologi Informasi
+    fileUrl: https://drive.google.com/uc?export=download&id=1J7IrifC1fzoyQhOQ_CCNRAWAChjrd1GZ
+  - fileTitle: Ibadah Akuntan Di Perbankan Syariah
+    fileUrl: https://drive.google.com/uc?export=download&id=17Ywf7fhuJHsrNB0guWaqRfSX8XOnBAkB
+  - fileTitle: Integritas Pengawas Dan Pemeriksa Bank
+    fileUrl: https://drive.google.com/uc?export=download&id=1JDKyhyj9p9IAi0donLFZmoFV5hhlEHzu
+  - fileTitle: Kredit Prestasi Legislator Perbankan
+    fileUrl: https://drive.google.com/uc?export=download&id=15gaMDcaZK8risU6qba76krh61jhBtjXT
+  - fileTitle: Legenda Devisa Penyelamat Rupiah
+    fileUrl: https://drive.google.com/uc?export=download&id=1yK5SoD9CcCpGQifmVWzZZv_jcrwjQK8L
+  - fileTitle: Membakukan Manajemen SDM Dan Pengawasan
+    fileUrl: https://drive.google.com/uc?export=download&id=1g1oxl5yU26LmRlDejlaMpoYb3fw-Mz9W
+  - fileTitle: Membangun SDM, Menengahi UMKM
+    fileUrl: https://drive.google.com/uc?export=download&id=1U0dcrDy8YIDRRENsYaM9kF79MegBjL5Z
+  - fileTitle: Memeriksa Bank Memetakan Konglomerasi
+    fileUrl: https://drive.google.com/uc?export=download&id=16ddRxxd2PRFErWg0h4Z4ma3vWUrCRqc2
+  - fileTitle: Memimpin BI Membangun Daerah
+    fileUrl: https://drive.google.com/uc?export=download&id=16ddRxxd2PRFErWg0h4Z4ma3vWUrCRqc2
+  - fileTitle: Memimpin Likuidasi Mengawasi Radar BI
+    fileUrl: https://drive.google.com/uc?export=download&id=1B0d_V7mXuE8uONu8bpqUBVnLTBvXoWv9
+  - fileTitle: Mengatasi Masalah Dengan Gagasan
+    fileUrl: https://drive.google.com/uc?export=download&id=12yu6-GguLlf3WN4LOL096miohXkTWO_W
+  - fileTitle: Mengawasi Bank Menjaga Soliditas
+    fileUrl: https://drive.google.com/uc?export=download&id=1bQezEWuCbYtIisBiOGXBu4by3XTMEo4M
+  - fileTitle: Mengawasi Bank Menjaga Uang
+    fileUrl: https://drive.google.com/uc?export=download&id=1nQQbVzs48N3NciMPBBVBZxyor-XyQXd5
+  - fileTitle: Mengelola Masa Lalu Mengingat Masa Depan
+    fileUrl: https://drive.google.com/uc?export=download&id=19t-AbJ4nDRtpYxlqXLoQB0oqDggfyHy1
+  - fileTitle: Mengurai Obligasi Rekap, Mengalirkan Knowledge Management
+    fileUrl: https://drive.google.com/uc?export=download&id=1WsYjRVQx5ioW0STMK2fufC_iDv7r9UHv
+  - fileTitle: Meniti Regulasi Ekonomi Mensyukuri BI
+    fileUrl: https://drive.google.com/uc?export=download&id=1ciAZOoGz_1reNG1cVUf-Xpr3w1RiFeeV
+  - fileTitle: Menjaga Lembaga Keuangan Negara
+    fileUrl: https://drive.google.com/uc?export=download&id=1u3LXIZdIjaX0AAudq07REFkWdkTYYw9T
+  - fileTitle: Otomasi Data Akuntansi Anak Santri
+    fileUrl: https://drive.google.com/uc?export=download&id=16FOTSqJ6Zkv3JD_r6T1XugF-9erkRluZ
+  - fileTitle: Programmer Peneliti Meningkatkan Citra KBI
+    fileUrl: https://drive.google.com/uc?export=download&id=1SHCk7JDqqiWjGunWDitwVB9n__xRCkWa
+  - fileTitle: Terobosan Sang Insinyur Di Bank Sentral
+    fileUrl: https://drive.google.com/uc?export=download&id=116OYPed0S1c5UU5pU4Mq-XATXOTx8fS4

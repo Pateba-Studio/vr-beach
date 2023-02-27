@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bebd0c2f6b6be4eb524a9dbd6db7bd, type: 3}
+  m_Name: Seri Kebanksentralan
+  m_EditorClassIdentifier: 
+  bookLinkDetails:
+  - fileTitle: Bank Syariah - Gambaran Umum
+    fileUrl: https://drive.google.com/uc?export=download&id=11t3uPD5lkDzziFDLH-3sSom56ueDCBmo
+  - fileTitle: Bauran Kebijakan Bank Sentral - Konsepsi Pokok Dan Pengalaman Bank
+      Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1rJU51tWjKNJy-mA0VuwVxM4NU6FdYKnP
+  - fileTitle: Inflasi Di Indonesia - Karakteristik Dan Pengendaliannya
+    fileUrl: https://drive.google.com/uc?export=download&id=1b2wIfquf1k6YxRcLS-ZzFLemP5s6vyG0
+  - fileTitle: Inflasi
+    fileUrl: https://drive.google.com/uc?export=download&id=1OL7sZVc94_2aYYumuALAujt0ykOl7c6z
+  - fileTitle: Instrumen Pengendalian Moneter - Operasi Pasar Terbuka
+    fileUrl: https://drive.google.com/uc?export=download&id=1l5s8VBpBqaLC5ggbY_ZFQLDQVRr_44XV
+  - fileTitle: Instrumen-Instrumen Pengendalian Moneter
+    fileUrl: https://drive.google.com/uc?export=download&id=1NnG-cN5MLWlEZdKeDnTTcWfG6p9QTE9D
+  - fileTitle: Kebijakan Moneter Di Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1_bLFNBlxNlzwqfhOZxHnYoReV8JhThoa
+  - fileTitle: Kebijakan Pengedaran Uang Di Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1Nq2YmvwC1K4d2x_zEEg6uQ4UvylK5hl4
+  - fileTitle: Kebijakan Sistem Pembayaran Di Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1zb86R62xyD_uux4dmTgKhNf1exOxS5fZ
+  - fileTitle: Kelembagaan Bank Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1dzCbWK63SCGXR11bNhmDOTkSML3NSQB6
+  - fileTitle: Konsep, Dinamika Dan Respon Kebijakan Nilai Tukar Di Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1TKVcaId0--jNpeKtMAyQgUbio0iHfc9j
+  - fileTitle: Mekanisme Transmisi Kebijakan Moneter Di Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1DSQNbIMKG4dvBzaSWdf3tJ-GW2DxFUPo
+  - fileTitle: Neraca Pembayaran - Konsep, Metodologi Dan Penerapan
+    fileUrl: https://drive.google.com/uc?export=download&id=1i4AAa-AfdAM2HfLvkryNN2-To0VDWPMP
+  - fileTitle: Organisasi Bank Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1e_EWw8UiRqzJOW4LIKYZDihn3LH1QUXv
+  - fileTitle: Paris Club
+    fileUrl: https://drive.google.com/uc?export=download&id=1H6RZSzysaWBuhCP9RWfbBIQ8xZYBP6W_
+  - fileTitle: Pasar Uang Rupiah - Gambaran Umum
+    fileUrl: https://drive.google.com/uc?export=download&id=1BDC4T6G9F2d-OAkzmDfHxI4DgO0qiKkC
+  - fileTitle: Penerapan Kebijakan Moneter Dalam Kerangka Inflation Targeting Di
+      Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1gqa8viyRmoGvPDu67i4bsUZi5ig0gMjf
+  - fileTitle: Penyusunan Statistik Uang Beredar
+    fileUrl: https://drive.google.com/uc?export=download&id=1-HBqkaht_yHI2cV2XoS8qtUNHok-ajSx
+  - fileTitle: Peranan Bank Indonesia Di Dalam Mendukung Pengembangan Usaha Mikro,
+      Kecil Dan Menengah
+    fileUrl: https://drive.google.com/uc?export=download&id=1YCGGH1RIw2zyYVcFHFrvruAb9YDVz6WK
+  - fileTitle: Sindikasi Pinjaman Luar Negeri
+    fileUrl: https://drive.google.com/uc?export=download&id=1s-KfIEJAfqA9BegRrIC9YbWeKl9ztSY-
+  - fileTitle: Sistem Akuntansi Bank Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1BPRQrKZ3ZGflcPYgetqVu8UBLIRu-5f5
+  - fileTitle: Sistem Dan Kebijakan Nilai Tukar
+    fileUrl: https://drive.google.com/uc?export=download&id=1gGKg25X_B4ZPg65z6YPTS6tPDWARQG1l
+  - fileTitle: Sistem Dan Kebijakan Perbankan Di Indonesia
+    fileUrl: https://drive.google.com/uc?export=download&id=1Le9mZ1d_p15T9VDl1plYa0FcH4nwEt0w
+  - fileTitle: Uang - Pengertian, Penciptaan, dan Peranannya dalam Perekonomian
+    fileUrl: https://drive.google.com/uc?export=download&id=1MK1HjiqPWQuOKcOsFqWYVKkj4RavEImF

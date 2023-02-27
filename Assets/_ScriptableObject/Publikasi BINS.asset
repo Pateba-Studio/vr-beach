@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bebd0c2f6b6be4eb524a9dbd6db7bd, type: 3}
+  m_Name: Publikasi BINS
+  m_EditorClassIdentifier: 
+  bookLinkDetails:
+  - fileTitle: Accelerating Growth Through Digital Transformation, Sustainable, and
+      Inclusive Economy (SESMABI Angkatan VI)
+    fileUrl: https://drive.google.com/uc?export=download&id=1dHupbirM9kt1yfq9to5zaMiYh9oE8fPQ
+  - fileTitle: Bertahan di Masa Pandemi, Bersiap Bangkit Lebih Kuat
+    fileUrl: https://drive.google.com/uc?export=download&id=1F-764yoJVnKZUnRFkLpINWWcfGWvpl2W
+  - fileTitle: Central Bank Policy Excellence Berbasis Big Data (SESMUBI Angkatan
+      VII)
+    fileUrl: https://drive.google.com/uc?export=download&id=1jJ6KZ1UxBj6fcleO0iz6M2UpSC4z1Fl-
+  - fileTitle: Geopolitik dan Perekonomian Indonesia - Dampak dan Respons Kebijakan
+    fileUrl: https://drive.google.com/uc?export=download&id=1OGCwi28-htrCxGLT1sbUMSucad2ki8cN
+  - fileTitle: Indonesia Menghadapi Perkembangan Ekonomi Dunia yang Sarat Risiko
+      dan Ketidakpastian (BI Institute Leadership Forum 1)
+    fileUrl: https://drive.google.com/uc?export=download&id=1rL-ziRu_cuty1XSg1qb_yaYMm_rV7H-8
+  - fileTitle: Interplay of Policy and Social Capital
+    fileUrl: https://drive.google.com/uc?export=download&id=1GvU9i9Cbeb_i2r-Ik8LDh-UecWtfCONP
+  - fileTitle: Konsep, Pendekatan, dan Implikasi pada Pembangunan
+    fileUrl: https://drive.google.com/uc?export=download&id=1AqXTtqf9NR4vcZ_pzA5tIXIxo4u-uJlp
+  - fileTitle: Navigasi Kebijakan Bank Indonesia Menuju Indonesia Maju (SESTABI Angkatan
+      VII)
+    fileUrl: https://drive.google.com/uc?export=download&id=10l7KGDziQTiKJUDkkCXWfJ6Xga-ppdmD
+  - fileTitle: Pariwisata dan Narasi Kota Tua
+    fileUrl: https://drive.google.com/uc?export=download&id=1AJwHqm8Z7Yu7g09F8_M5EWTIrWSUDt5p
+  - fileTitle: Peran Perpustakaan Bank Indonesia dalam Transformasi Organisasi
+    fileUrl: https://drive.google.com/uc?export=download&id=1V9wN1zsaprarNIirKBolyDNWMP2Iy4LW
+  - fileTitle: Tinjauan Local Value Chain, Hilirisasi, dan Industri Hijau
+    fileUrl: https://drive.google.com/uc?export=download&id=1eH0AKMdG9uyNolN0DWPKnpPWL9aUJVmZ

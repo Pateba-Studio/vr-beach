@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bebd0c2f6b6be4eb524a9dbd6db7bd, type: 3}
+  m_Name: Begawanship DG
+  m_EditorClassIdentifier: 
+  bookLinkDetails:
+  - fileTitle: Kekuatan Komunikasi
+    fileUrl: https://drive.google.com/uc?export=download&id=1cE6h13_IbQibS-qDdmjFWFKrYaEb0oXY
+  - fileTitle: Kepemimpinan Sunyi Boediono
+    fileUrl: https://drive.google.com/uc?export=download&id=11p-qlWwX_Agi_XzKcpoYIlfNDn8PoQRF
+  - fileTitle: Memancarkan Seni Dan Pengetahuan Bank Sentral
+    fileUrl: https://drive.google.com/uc?export=download&id=11xj97mRwHKPewy_2RHbcOtJf4fg6umR0
+  - fileTitle: Membangun Kredibilitas, Menyejahterakan Bangsa
+    fileUrl: https://drive.google.com/uc?export=download&id=13w6hP7-yg5-M4OXOZBRb1waDCqpAB65Z
+  - fileTitle: Memimpin Dari Tengah
+    fileUrl: https://drive.google.com/uc?export=download&id=1KdlljMIV84Ksh7QMZ-lFGibP61eE0-PJ
+  - fileTitle: Menata Lanskap Perbankan Dan Keterbukaan
+    fileUrl: https://drive.google.com/uc?export=download&id=1t5t6Dz7x-xskBDMIwkxvsUsF5pSTmRYU
+  - fileTitle: Mendorong Langkah Maju Menuju Less Cash Society
+    fileUrl: https://drive.google.com/uc?export=download&id=1HV_Ydle7Pnf9KIYy19DOTOpyGIUjgA9P
+  - fileTitle: Mengakselerasi UMKM Dan Sektor Riil
+    fileUrl: https://drive.google.com/uc?export=download&id=15uWpAuYOZtgYaUJDLZq9HSITxMd5WhPP
+  - fileTitle: Menguatkan Fungsi Dan Manahemen Intern Bank Indonesia Untuk Kemajuan
+      Ekonomi Bangsa
+    fileUrl: https://drive.google.com/uc?export=download&id=1CdvEJDk0BQKrIlsbLklOKYNH-fUMRf7E
+  - fileTitle: Menjaga Likuiditas Makro Melalui Pengelolaan Moneter Yang Kuat
+    fileUrl: https://drive.google.com/uc?export=download&id=1u_YRM3KgymCC952OR44WY0EXaJPbmlAL
+  - fileTitle: Menyulut Api Perbankan
+    fileUrl: https://drive.google.com/uc?export=download&id=1fuHnYkvWCfhcmn12BDxwPHI0d4btT7cH
+  - fileTitle: Meretas Jalan Sitem Pembayaran Nasional
+    fileUrl: https://drive.google.com/uc?export=download&id=12XcKNrcODkrJk1SRs6fZ69_XgfNMqtUa
+  - fileTitle: Mewujudkan Pertumbuhan Ekonomi Di Tengah Globalisasi
+    fileUrl: https://drive.google.com/uc?export=download&id=1Ibd2jVaaBdhy9xEENP2s6xt3xxIMtzoe
+  - fileTitle: Narasi Tanpa Antagonis 1
+    fileUrl: https://drive.google.com/uc?export=download&id=16870oe54rqNgW4p1Z0_PcqyEUyiZdEjV
+  - fileTitle: Narasi Tanpa Antagonis 2
+    fileUrl: https://drive.google.com/uc?export=download&id=1__OKnHJpUqF_0ZeZBltJDyQ9oP3MI_Hb
+  - fileTitle: Peran BI Dalam Mewujudkan Perekonomian Dalam Era Kematangan Pembangunan
+      2025
+    fileUrl: https://drive.google.com/uc?export=download&id=1qt98bbfiM1goQZ793zGRaU7YtzitcICD
+  - fileTitle: Sebuah Totalitas
+    fileUrl: https://drive.google.com/uc?export=download&id=1EWStpusZ6K99NNsQsrFopBo0Kb2_bGgD
+  - fileTitle: Seni Menjaga Stabilitas Moneter
+    fileUrl: https://drive.google.com/uc?export=download&id=1Lqwn__pY4voPtAgCiUp_2_Z42q8_U576
