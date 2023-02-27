@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "1WMHH835KD1041",
     "m_SelectedPackage": {
         "deviceId": "1WMHH835KD1041",
-        "name": "com.PatebaStudio.VRBeach.Dev2602",
-        "processId": 7158,
+        "name": "com.PatebaStudio.VRBeach.Dev2702",
+        "processId": 19390,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,24 @@
             "deviceId": "1WMHH835KD1041",
             "name": "com.PatebaStudio.VRBeach.Dev2602",
             "processId": 7158,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH835KD1041",
+            "name": "com.PatebaStudio.VRBeach.Dev2702",
+            "processId": 5152,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH835KD1041",
+            "name": "com.PatebaStudio.VRBeach.Dev2702",
+            "processId": 5905,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH835KD1041",
+            "name": "com.PatebaStudio.VRBeach.Dev2702",
+            "processId": 19390,
             "exited": false
         },
         {

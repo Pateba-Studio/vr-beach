@@ -131,6 +131,7 @@ public class AudioPlaylistHandler : MonoBehaviour
             obj.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = $"{index + 1} | {list.audioTitle}";
             obj.GetComponentInChildren<Button>().onClick.AddListener(delegate
             {
+                if (audioSource.isPlaying) audioSource.Stop();
                 AudioProcessing(i, list);
             });
 
@@ -194,8 +195,8 @@ public class AudioPlaylistHandler : MonoBehaviour
         else
         {
             AudioClip audioClip = DownloadHandlerAudioClip.GetContent(uwr);
-            if (!audioSource.isPlaying)
-            {
+            //if (!audioSource.isPlaying)
+            //{
                 if (audioClip.length > 0)
                 {
                     playerButtonGroup.SetActive(true);
@@ -221,7 +222,7 @@ public class AudioPlaylistHandler : MonoBehaviour
                     Debug.Log("Re-downloading file...");
                     FileDownloader(detail);
                 }
-            }
+            //}
         }
     }
 
