@@ -14,6 +14,7 @@ public class YoutubeLinkDetail
     public string videoTitle;
     public string oriUrl;
     public string convertedUrl;
+    public Button playButton;
     public VideoClip videoClip;
     public TextMeshProUGUI downloadProgressText;
     public bool isStreaming;

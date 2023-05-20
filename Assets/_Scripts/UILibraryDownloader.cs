@@ -52,7 +52,7 @@ public class UILibraryDownloader : MonoBehaviour
 
         fileDownloader.DownloadFileCompleted += (sender, e) =>
         {
-            File.Move(Path.Combine(detail, fileTitle + ".zip"), Path.Combine($"{Application.persistentDataPath}/Ebook", fileTitle + ".zip"));
+            File.Copy(Path.Combine(detail, fileTitle + ".zip"), Path.Combine($"{Application.persistentDataPath}/Ebook", fileTitle + ".zip"), true);
             downloadBar.value = downloadBar.maxValue;
             OnClickPlayButton();
         };
@@ -63,7 +63,7 @@ public class UILibraryDownloader : MonoBehaviour
     public void OpenEbookFile()
     {
         string detail = $"{Application.persistentDataPath}/Ebook";
-        bookManager.InitializeBook(this, detail, fileTitle, ".zip");
+        StartCoroutine(bookManager.InitializeBook(this, detail, fileTitle, ".zip"));
     }
 
     public bool FileChecker(string name, string extension)

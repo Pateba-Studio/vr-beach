@@ -106,6 +106,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "ee06f02a-09df-4619-8bf7-5494f9f0decc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -238,6 +247,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55df5063-0bb3-4bab-a18d-39fd6c932db7",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -664,6 +684,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "a27810ac-da60-4e9a-b72f-0980ea5c3ce9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -796,6 +825,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7c349f6-4a4d-45a7-9906-88dc2be1c0d6",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

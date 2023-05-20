@@ -26,6 +26,7 @@ public class PlayerPosManager : MonoBehaviour
         if (FindObjectOfType<RepositionHandler>() &&
             !isInitiated)
         {
+            FindObjectOfType<CharacterController>().height = 1.5f;
             FindObjectOfType<RepositionHandler>().startingPoint = startingPoint;
             FindObjectOfType<RepositionHandler>().InitPlayerPos();
             isInitiated = true;

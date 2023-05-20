@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public enum GameType
 {
@@ -32,8 +34,11 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public int globalTime;
     public GameObject gameObjectGroupCurr;
+    public GameObject ballObjectSpawned;
     public GameType gameType = GameType.None;
     [SerializeField] public List<GameComponent> gameComponents;
+
+    GameObject temp;
 
     private void Awake()
     {
@@ -50,7 +55,15 @@ public class GameManager : MonoBehaviour
             if (gameType != GameType.None)
             {
                 StopCoroutine(GameTimer());
+                if (temp != null)
+                {
+                    Destroy(temp);
+                    temp = null;
+                }
+
                 Destroy(gameObjectGroupCurr);
+                gameObjectGroupCurr = null;
+
                 gameComponents[(int)gameType].gameGroup.SetActive(false);
                 gameComponents[(int)gameType].timerPanel.SetActive(false);
                 gameComponents[(int)gameType].gameScore = 0;
@@ -85,13 +98,67 @@ public class GameManager : MonoBehaviour
             component.gameCanvas.SetActive(false);
         }
 
-        gameObjectGroupCurr = Instantiate(gameComponents[(int)gameType].gameObjectGroup);
-        
-        gameObjectGroupCurr.SetActive(true);
+        var obj = Instantiate(gameComponents[(int)gameType].gameObjectGroup);
+        obj.SetActive(true);
+
+        if (obj.GetComponent<XRGrabInteractable>() == null)
+        {
+            gameObjectGroupCurr = obj.GetComponentInChildren<XRGrabInteractable>().gameObject;
+            temp = obj;
+        }
+        else
+        {
+            gameObjectGroupCurr = obj;
+        }
+
+        gameObjectGroupCurr.SetActive(false);
         gameObjectGroupCurr.transform.parent = gameComponents[(int)gameType].gameGroup.transform;
         gameObjectGroupCurr.transform.position = gameComponents[(int)gameType].gameObjectSpawnPos.position;
 
         StartCoroutine(GameTimer());
+    }
+
+    public void StopGame()
+    {
+        if (gameType != GameType.None)
+        {
+            StopAllCoroutines();
+            if (temp != null)
+            {
+                Destroy(temp);
+                temp = null;
+            }
+
+            Destroy(gameObjectGroupCurr);
+            gameObjectGroupCurr = null;
+
+            gameComponents[(int)gameType].gameGroup.SetActive(false);
+            gameComponents[(int)gameType].timerPanel.SetActive(false);
+            gameComponents[(int)gameType].gameScore = 0;
+
+            foreach (GameComponent component in gameComponents)
+            {
+                component.gameCanvas.SetActive(true);
+            }
+
+            gameType = GameType.None;
+            globalTime = 0;
+        }
+    }
+
+    public void GrabCurrentBall(Transform attachPoint)
+    {
+        if (gameObjectGroupCurr == null) return;
+        if (ballObjectSpawned == null) 
+        {
+            ballObjectSpawned = Instantiate(gameObjectGroupCurr);
+        }
+
+        ballObjectSpawned.SetActive(true);
+        ballObjectSpawned.transform.position = attachPoint.position;
+        ballObjectSpawned.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        ballObjectSpawned.GetComponent<BallDestroyer>().isWork = true;
+        Debug.Log("Trying Grab: " + ballObjectSpawned.name);
     }
 
     IEnumerator GameTimer()

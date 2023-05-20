@@ -6,7 +6,8 @@ using UnityEngine;
 public enum PositionName
 {
     PasirPantai,
-    VideoPlayer
+    VideoPlayer,
+    BeachVideoPlayer
 }
 
 [Serializable]

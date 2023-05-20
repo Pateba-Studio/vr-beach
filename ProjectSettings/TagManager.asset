@@ -7,6 +7,8 @@ TagManager:
   - Ball
   - Can
   - ThrowCanFloor
+  - BasketBall
+  - BallDestroyer
   layers:
   - Default
   - TransparentFX

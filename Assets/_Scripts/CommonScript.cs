@@ -33,5 +33,6 @@ public class CommonScript : MonoBehaviour
         FindObjectOfType<ThreeSixtyVideoPlayer>().gameObject.SetActive(false);
         FindObjectOfType<PlayerPosManager>().startingPoint = position;
         FindObjectOfType<PlayerPosManager>().isInitiated = false;
+        //GetComponent<Rigidbody>().isKinematic = false;
     }
 }

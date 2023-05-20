@@ -181,41 +181,52 @@ public class BookManager : MonoBehaviour
         }
     }
 
-    public void InitializeBook(UILibraryDownloader handler, string rootPath, string folderName, string extension)
+    public IEnumerator InitializeBook(UILibraryDownloader handler, string rootPath, string folderName, string extension)
     {
         ebookPagePath.Clear();
         pageBefore = 0;
         pageAfter = 1;
 
+        bool fileCorrupted = false;
         string rarPath = Path.Combine(rootPath, folderName + extension);
         string destinationPath = Path.Combine(rootPath, "Textures");
         if (!DirectoryChecker(destinationPath)) { Directory.CreateDirectory(destinationPath); }
 
         try
         {
+            Debug.Log(folderName + " is not corrupted.");
             DeleteAllFiles(destinationPath);
             UnzipFile(rarPath, destinationPath);
         }
         catch
         {
-            Debug.Log("Re-downloading file...");
+            Debug.Log(folderName + " is corrupted.");
+            fileCorrupted = true;
+        }
+
+        if (fileCorrupted)
+        {
+            handler.downloadProgressText.text = "File is Corrupted\nRe-downloading...";
+            yield return new WaitForSeconds(1f);
             handler.downloadProgressText.text = "0%";
             handler.downloadBar.value = 0;
             handler.FileDownloader();
         }
-
-        if (!bookObj.activeSelf) 
+        else
         {
-            var fileInfo = new DirectoryInfo(destinationPath).GetFiles();
-            if (fileInfo.Length > 0)
+            if (!bookObj.activeSelf)
             {
-                GetAllFiles(destinationPath);
-                AssignTextureToBook();
+                var fileInfo = new DirectoryInfo(destinationPath).GetFiles();
+                if (fileInfo.Length > 0)
+                {
+                    GetAllFiles(destinationPath);
+                    AssignTextureToBook();
 
-                bookMenu.SetActive(false);
-                bookObj.SetActive(true);
-                Debug.Log("File opened!");
-            } 
+                    bookMenu.SetActive(false);
+                    bookObj.SetActive(true);
+                    Debug.Log("File opened!");
+                }
+            }
         }
     }
 
