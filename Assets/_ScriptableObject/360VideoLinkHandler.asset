@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1186db2068c177946ab83503e5161bd5, type: 3}
   m_Name: 360VideoLinkHandler
   m_EditorClassIdentifier: 
-  youtubeLinkDetail:
+  playerPosTemp: {x: 0, y: 0, z: 0}
+  playerRotTemp: {x: 0, y: 0, z: 0}
+  videoLinkDetail:
     videoTitle: 
-    oriUrl: 
-    convertedUrl: 
+    url: 
+    clip: {fileID: 0}

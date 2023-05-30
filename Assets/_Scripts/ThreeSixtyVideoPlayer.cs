@@ -9,21 +9,14 @@ public class ThreeSixtyVideoPlayer : MonoBehaviour
     public VideoPlayer videoPlayer;
     public GameObject isPlayingPanel;
     public GameObject isNotPlayingPanel;
-    [SerializeField] public YoutubeLinkDetail linkDetail;
+    [SerializeField] public VideoLinkDetail linkDetail;
 
     public void SetupPlayer()
     {
         linkDetail = videoLinkHandler.GetLinkDetails();
-        if (videoLinkHandler.useVideoFile)
-        {
-            videoPlayer.source = VideoSource.VideoClip;
-            videoPlayer.clip = linkDetail.videoClip;
-        }
-        else
-        {
-            videoPlayer.source = VideoSource.Url;
-            videoPlayer.url = linkDetail.convertedUrl;
-        }
+        videoPlayer.source = VideoSource.VideoClip;
+        videoPlayer.clip = linkDetail.clip;
+        PlayVideo();
     }
 
     void EndReached(VideoPlayer vp)
@@ -33,27 +26,23 @@ public class ThreeSixtyVideoPlayer : MonoBehaviour
 
     public void PlayVideo()
     {
+        videoPlayer.Play();
         isPlayingPanel.SetActive(true);
         isNotPlayingPanel.SetActive(false);
         videoPlayer.gameObject.SetActive(true);
-
-        videoPlayer.Play();
         videoPlayer.loopPointReached += EndReached;
     }
 
     public void PauseVideo()
     {
+        videoPlayer.Pause();
         isPlayingPanel.SetActive(false);
         isNotPlayingPanel.SetActive(true);
-
-        videoPlayer.Pause();
     }
 
     public void StopVideo()
     {
         videoPlayer.Stop();
-        videoPlayer.time = 0f;
-
         isPlayingPanel.SetActive(false);
         isNotPlayingPanel.SetActive(true);
     }

@@ -3,18 +3,17 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Assets", menuName = "ScriptableObjects/VideoLinkHandler", order = 1)]
 public class VideoLinkHandler : ScriptableObject
 {
-    public bool useVideoFile;
     public Vector3 playerPosTemp;
     public Vector3 playerRotTemp;
-    [SerializeField] public YoutubeLinkDetail youtubeLinkDetail;
+    [SerializeField] public VideoLinkDetail videoLinkDetail;
 
-    public void SetLinkDetails(YoutubeLinkDetail link)
+    public void SetLinkDetails(VideoLinkDetail link)
     {
-        youtubeLinkDetail = link;
+        videoLinkDetail = link;
     }
 
-    public YoutubeLinkDetail GetLinkDetails()
+    public VideoLinkDetail GetLinkDetails()
     {
-        return youtubeLinkDetail;
+        return videoLinkDetail;
     }
 }

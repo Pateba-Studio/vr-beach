@@ -1,107 +1,53 @@
 {
-    "m_SelectedDeviceId": "RR8MA047P2J",
+    "m_SelectedDeviceId": "1WMHH835KD1041",
     "m_SelectedPackage": {
         "deviceId": "1WMHH835KD1041",
-        "name": "com.PatebaStudio.VRBeach.Dev0203",
-        "processId": 13712,
+        "name": "com.BI.VLIP",
+        "processId": 20396,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 9110,
+            "name": "com.BI.VLIP",
+            "processId": 12982,
             "exited": true
         },
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 9243,
+            "name": "com.BI.VLIP",
+            "processId": 14090,
             "exited": true
         },
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 9641,
+            "name": "com.BI.VLIP",
+            "processId": 14640,
             "exited": true
         },
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 10044,
+            "name": "com.BI.VLIP",
+            "processId": 15151,
             "exited": true
         },
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.oculus.xrstreamingclient",
-            "processId": 10402,
+            "name": "com.oculus.shellenv",
+            "processId": 1868,
             "exited": false
         },
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 11359,
+            "name": "com.BI.VLIP",
+            "processId": 18750,
             "exited": false
         },
         {
             "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 11939,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 12250,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2502",
-            "processId": 13283,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2602",
-            "processId": 5129,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2602",
-            "processId": 7158,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2702",
-            "processId": 5152,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2702",
-            "processId": 5905,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev2702",
-            "processId": 19390,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev0203",
-            "processId": 13246,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH835KD1041",
-            "name": "com.PatebaStudio.VRBeach.Dev0203",
-            "processId": 13712,
+            "name": "com.BI.VLIP",
+            "processId": 20396,
             "exited": false
         },
         {

@@ -10,6 +10,14 @@ public class BasicVideoPlayer : MonoBehaviour
     public GameObject isPlayingPanel;
     public GameObject isNotPlayingPanel;
 
+    public void SetupPlayer(string url)
+    {
+        menuPanel.SetActive(false);
+        gameObject.SetActive(true);
+        videoPlayer.url = url;
+        PlayVideo();
+    }
+
     void EndReached(VideoPlayer vp)
     {
         StopVideo();
@@ -17,29 +25,25 @@ public class BasicVideoPlayer : MonoBehaviour
 
     public void PlayVideo()
     {
+        videoPlayer.Play();
         isPlayingPanel.SetActive(true);
         isNotPlayingPanel.SetActive(false);
-
-        videoPlayer.Play();
         videoPlayer.loopPointReached += EndReached;
     }
 
     public void PauseVideo()
     {
+        videoPlayer.Pause();
         isPlayingPanel.SetActive(false);
         isNotPlayingPanel.SetActive(true);
-
-        videoPlayer.Pause();
     }
 
     public void StopVideo()
     {
-        videoPlayer.Pause();
-        videoPlayer.time = 0;
-
+        videoPlayer.Stop();
         menuPanel.SetActive(true);
-        isPlayingPanel.SetActive(false);
-        isNotPlayingPanel.SetActive(true);
+        isPlayingPanel.SetActive(true);
+        isNotPlayingPanel.SetActive(false);
         gameObject.SetActive(false);
     }
 
